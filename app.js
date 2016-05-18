@@ -78,17 +78,16 @@
 	}
 	
 	Game.prototype.resetGame = function(){
-			console.log("resetting game");
-			
-			playerWins = 0;
-			computerWins = 0;
-			document.getElementById('result').innerHTML = "Ready!";
-			document.getElementById('result').className = "alert alert-info text-center";
-			document.getElementById('playerWins').innerHTML = parseInt(playerWins,0).toString();
-			document.getElementById('computerWins').innerHTML = parseInt(computerWins,0).toString();
-		}
+		
+		console.log("resetting game");
+		playerWins = 0;
+		computerWins = 0;
+		document.getElementById('result').innerHTML = "Ready!";
+		document.getElementById('result').className = "alert alert-info text-center";
+		document.getElementById('playerWins').innerHTML = parseInt(playerWins,0).toString();
+		document.getElementById('computerWins').innerHTML = parseInt(computerWins,0).toString();
 
-
+	}
 })();
 
 
